@@ -1,0 +1,61 @@
+---
+title: "Tempo, meter and mode"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(ggplot2)
+library(dbplyr)
+library(spotifyr)
+source('spotify.R')
+```
+
+
+Introduction {.storyboard}
+=====================================  
+
+### Frame 1
+
+```{r}
+```
+
+*** 
+
+Some commentary about Frame 1.
+
+### Frame 2 {data-commentary-width=400}
+
+```{r}
+```
+
+*** 
+
+Some commentary about Frame 2.
+
+
+Details {.shiny}
+=====================================  
+
+
+Inputs {.sidebar}
+-------------------------------------
+
+```{r}
+# shiny inputs defined here
+```
+ 
+Column
+-------------------------------------
+    
+### Chart 1
+    
+```{r}
+```
+
+
+
